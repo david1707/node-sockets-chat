@@ -27,6 +27,8 @@ Every window is a new user (using the methods in 'client.js' file). Right now th
 - Specify a name and a message, then click the 'Send' button. This will send the data into the server and the server will broadcast it to every user.
 - When a user is typing, shows a message that says ' USER is typing... ' to let the users know that someone is typing
 
+![alt text](https://i.imgur.com/gEaegOW.png)
+
 ### Future updates
 
 - The user own nickname and message will show at the right side, to easily find their own messages
