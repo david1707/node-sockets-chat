@@ -34,6 +34,7 @@ Every window is a new user (using the methods in 'client.js' file). Right now th
 - The user own nickname and message will show at the right side, to easily find their own messages
 - Every user will select his own in-chat nickname colour to easily identify messages that belong to the same user.
 - The date when the message was sent on a tooltip
+- Disabling the 'Send' button for a few seconds so users won't spam the chat
 - Improving the style
 
 ## Built With
