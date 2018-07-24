@@ -1,0 +1,31 @@
+{
+  "name": "sockets-chat",
+  "version": "1.0.0",
+  "description": "A webchat service using node.js and socket.io npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david1707/node-sockets-chat.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Javascript",
+    "Socket.io"
+  ],
+  "author": "David Membrives I Martínez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/david1707/node-sockets-chat/issues"
+  },
+  "homepage": "https://github.com/david1707/node-sockets-chat#readme",
+  "dependencies": {
+    "colors": "^1.3.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3",
+    "socket.io": "^2.1.1"
+  }
+}

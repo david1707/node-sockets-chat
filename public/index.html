@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WebChat Sockets with Node.js</title>
+    <link rel="stylesheet" href="/styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1>ChatBox with Sockets</h1>
+    <div id="container-chat">
+        <div id="chat-window">
+            <div id="messages"></div>
+            <div id="users-activity"></div>
+        </div>
+        <input type="text" id="nickname" placeholder="Your nickname">
+        <input type="text" id="message" placeholder="Your message">
+        <button id="send">Send</button>
+    </div>
+
+
+    <!-- Socket.io CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.dev.js"></script>
+    <!-- Client JS -->
+    <script src="/client.js"></script>
+</body>
+</html>
